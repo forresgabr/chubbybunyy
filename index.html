@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle2.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<title>ParkIt</title>
+
+</head>
+<body>
+
+<ul class ="about">
+<li> <a href="#about">ABOUT</a></li> 
+  <li><a href="#contact">CONTACT</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">HOMEPAGE</a>
+    <div class="dropdown-content">
+    <font color="black">
+    <a href= "#" onclick="document.getElementById('id01').style.display='block'"> LOG IN  </span>
+
+ 
+
+      <a href="#map">MAP</a>
+      </font>
+
+    </div>
+  </li>
+</ul>
+
+
+<img src="banner2.jpg" alt="welly" class="banner">
+
+<br>
+<br>
+<br>
+
+<a id="about">
+<a name="about"></im>"<h2 class="about"> W H A T &nbsp;&nbsp;&nbsp; W E ' R E &nbsp;&nbsp;&nbsp; A B O U T</h2>
+</a>
+<div class="blurb" >
+
+<div class="hi">
+<i> the future of parking </i>
+</div>
+
+<p> A Wellington based company helping to provide an easier commute without the hassle of trying to find a park. Whether you are heading to the CBD, suburbs or the Airport, ParkIt takes the stress away. With one tap you have the location of a safe, cost-effective and most convenient park to you. </p>
+
+
+<h2 class= "team"> M E E T &nbsp;&nbsp;&nbsp; T H E &nbsp;&nbsp;&nbsp; T E A M </h2>
+
+<div class="hi">
+
+<i> dynamic innovative leaders </i>
+</div>
+<p>
+We are passionate about the cities and towns we call home. Our team works extremely hard in a innovative field to help create opportunities for millions of people and improve the way everyone gets from A to B. Its not a easy task but something we and thousands of others enjoy and appreciate.
+ </p>
+
+
+
+<br>
+
+<div class="guy1">
+    
+      <img src="guy1.png" alt="shoe-two" width="10%"; height="auto"; onmouseover="this.src='marc.png'" onmouseout="this.src='guy1.png'">
+</div>
+
+
+
+<div class="girl1">
+  
+    <img src="girl1.png" alt="teammeber" width="10%"; height="auto"; onmouseover="this.src='tina.png'" onmouseout="this.src='girl1.png'">
+
+</div>
+
+
+<div class="guy2">
+    
+        <img src="guy2.png" alt="shoe-two" width="10%"; height="auto"; onmouseover="this.src='kevin.png'" onmouseout="this.src='guy2.png'">
+</div>
+
+
+<div class="girl2">
+  
+    <img src="girl2.png" alt="teammeber" width="10%"; height="auto"; onmouseover="this.src='brooke.png'" onmouseout="this.src='girl2.png'">
+</div>
+
+
+
+<br>
+
+
+
+<div class="black1"> </div>
+<div class="black2"> </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class= font >
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+<a name="login"> </a>
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+    <br>
+<br>
+<br>
+<br>
+<br>
+      <img src="colouredlogo.png" alt="logo" class="logo">
+    </div>
+
+    <div class="container">
+      <label><b>Email Address</b></label>
+      <input type="text" placeholder="Enter Email Address">
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password">
+
+      <input type="checkbox" > Sign Up
+      <input type="checkbox"> Log In
+      <button type="submit">Go</button>
+      
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  
+    </div>
+  </form>
+</div>
+</div>
+
+<br>
+
+<a name="contact"><h2 class="contact"> C O N T A C T &nbsp;&nbsp;&nbsp; U S </h2> 
+<p> 
+<div class="contact1">
+<i> fan? drop us a note! </i>
+
+</div>
+
+
+<div class="location">
+<img src="map.png" alt="location" style="width:50px;">
+</div>
+<div class="location1">
+<i> Wellington, New Zealand</i>
+</div>
+
+<div class="phone">
+<img src="phone.png" alt="phone" style="width:50px;">
+</div>
+<div class="phone1">
+<i> +64 2795 48305 </i>
+</div>
+
+<div class="mail">
+<img src="mail.png" alt="mail" style="width:50px;">
+</div>
+<div class="mail1">
+<i> parkit_enquiries@park.com </i>
+</div>
+    
+<div class="facebook">
+      <img src="facebook.png" alt="facebook" style="width:50px;">
+</div>
+<div class="facebook1">
+     <i> facebook.com/parkit</i>
+</div>
+    
+    <div class="twitter">
+    <img src="twitter.png" alt="twitter" style="width:50px;">
+   
+    </div>
+    <div class="twitter1">
+    <i> twitter.com/parkit</i>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<a name="map"></a><div class="map">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1080px;'><div id='gmap_canvas' style='height:440px;width:1080px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(-41.2864603,174.77623600000004),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-41.2864603,174.77623600000004)});infowindow = new google.maps.InfoWindow({content:'<strong>wellington, new zealand</strong><br>wellington, new zealand<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div>
+
+<div class="copyright">
+<p> &#169; PARK IT </p>
+</div>
+</body>
+</html>
